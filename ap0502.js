@@ -137,9 +137,9 @@ function init() {
     axes.visible = controls.axes;
     // テクスチャの切り替え
     if (controls.test) {
-      material.map = moonTexture;
-    }else{
       material.map = testTexture;
+    }else{
+      material.map = moonTexture;
     }
 
 
